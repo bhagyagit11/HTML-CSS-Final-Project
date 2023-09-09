@@ -196,6 +196,29 @@ font-family: arima madurai;
 .container .row .col img{
     border-radius: 5px;
 }
+.customers .share{
+    text-align: center;
+    margin: 3% 0;
+    font-family: yeseva one;
+    font-weight: bold;
+    color: rgb(76, 14, 14);
+}
+.customers .row .col img{
+    height:220px;
+    width:220px;
+    border-radius: 20%;
+    margin-bottom: 5%;
+}
+.customers .row .col img:hover{
+    transform: scale(1.1);
+}
+.customers .row{
+    margin-left: 1%;
+}
+.customers .cus{
+    text-align: center;
+    color: blue;
+}
 
 
 @media (max-width:1350px){
@@ -217,6 +240,12 @@ font-family: arima madurai;
 @media (max-width:1050px){
     .homepage h1{
         font-size: 160%;
+    }
+    .customers .row .col img{
+        height:220px;
+        width:220px;
+        border-radius: 20%;
+        margin-bottom: 5%;
     }
 }
 @media (max-width:650px){
