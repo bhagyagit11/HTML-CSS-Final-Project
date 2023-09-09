@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    background-color: rgba(17, 18, 18);
+}
+.container-fluid .navbar-brand  {
+    font-family: lemon,cursive,sans-serif;
+    font-weight:bold;
+    font-size: 230%;
+    color:rgb(246 36 199 );
+    margin-left:5%;
+    animation-duration: 2s;
+    
+}
+.container-fluid .navbar-brand:hover{
+    color:rgb(237, 103, 188);
+    cursor: default;
+}
+.navbar-nav li a{
+    color:white;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left: 60%;
+}
+.navbar-nav li a:hover{
+    color: aqua;
+}
+.navbar-toggler img{
+    background-color:white;
+    width: 31px;
+    height:30px ;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+.homepage{
+
+background-image: url('Beautiful-Trip-to-Maldives.jpg');
+background-size: cover;
+width:100%;
+height:600px;
+opacity:1;
+margin: 0;
+
+}
+.homepage h1{
+        margin-left:4%;
+        padding-top: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        color: black;
+        margin-right:60%;
+}
+.homepage .btn{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 0.5% 4%;
+    border-radius: 5px;
+    background-color: hsl(233, 4%, 38%);
+    color: white;
+    opacity:0.6;
+}
+.homepage .btn:hover{
+    background-color: rgb(73, 59, 59);
+    color: whitesmoke;
+}
+.explore{
+    background-color: whitesmoke;
+}
+.explore .dream{
+    text-align: center;
+    padding:2% 0;
+    font-family: poppins;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 4px 0 5px grey;
+    
+}
+.destinations .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1.5%;
+    
+}
+
+.destinations .row .col img{
+    height: 300px;
+    width: 300px;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    
+}
+.destinations .row .col img:hover{
+    transform:scale(0.97);
+   
+}
+.destinations .row .col h4{
+    text-align: center;
+    color: brown;
+    padding-top: 5px;
+    font-weight: 600;
+    font-weight: bold;
+
+}
+.destinations .row .col p{
+   text-align: center;
+    text-align: justify;
+    padding-right:100px ;
+    color: black;
+    font-weight:500;
+    font-size: 15px;
+}
+.destinations .row .col .btn1{
+    text-align: center;
+    margin-right: 25%;
+    border: 1px solid grey;
+    padding: 5px 0;
+    border-radius:6px;
+    background-color: rgb(214, 200, 200);
+    margin-bottom: 15px;
+    margin-top: 0%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.destinations .row .col .btn1:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.destinations .row a{
+    text-align: center;
+    font-size: 17px;
+    color: blue;
+}
+
+@media (max-width:1350px){
+    .homepage{
+
+        background-image: url('Beautiful-Trip-to-Maldives.jpg');
+        background-size:auto;
+        width:100%;
+        height:700px;
+        opacity:1;
+        margin: 0;
+    }
+   
+    .homepage h1{
+        font-size: 200%;
+    }
+
+}
+@media (max-width:1050px){
+    .homepage h1{
+        font-size: 160%;
+    }
+}
+@media (max-width:650px){
+    .homepage h1{
+        font-size: 100%;
+        padding-left: 10px;
+    }
+    .homepage .btn{
+        margin-left: 3%;
+        margin-top: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        
+    }
+    .destinations .row .col img{
+        margin-left: 5%;
+    }
+    .destinations .row .col p{
+        margin-left: 10%;
+    }
+    .destinations .row .col  h4{
+        margin-right: 15%;
+    }
+    .destinations .row .col .btn1{
+        margin-left: 15%;
+    }
+
+}
+
+
+
+   
