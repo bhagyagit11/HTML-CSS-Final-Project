@@ -75,7 +75,7 @@ margin: 0;
     color: whitesmoke;
 }
 .explore{
-    background-color: whitesmoke;
+    background-color: white;
 }
 .explore .dream{
     text-align: center;
@@ -87,10 +87,7 @@ margin: 0;
     
 }
 .destinations .row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 1.5%;
+    margin-left: 2.5%;
     
 }
 
@@ -111,6 +108,7 @@ margin: 0;
     padding-top: 5px;
     font-weight: 600;
     font-weight: bold;
+    margin-right: 30%;
 
 }
 .destinations .row .col p{
@@ -142,6 +140,63 @@ margin: 0;
     font-size: 17px;
     color: blue;
 }
+.container h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 18px;
+    color:brown;
+    text-decoration: underline;
+}
+.container img{
+    height:200px;
+    width:200px ;
+}
+.container .row{
+margin-left: 
+display: flex;
+font-family: arima madurai;
+
+}
+.container .row .col{
+  padding-left: 10%;
+}
+.container .row .col{
+    padding-right:7%;
+    padding-top:2%;
+}
+.container .row .col h4{
+    color: brown;
+    padding-bottom: 3%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .row .col p{
+    font-size:20px ;
+}
+.container .row .col h4{
+    color: brown;
+    padding-bottom: 3%;
+    font-size: 30px;
+}
+.container .row .col p{
+    font-size:20px ;
+}
+.container .row .col h3{
+    font-size:20px ;
+    font-weight: bold;
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    color: brown;
+}
+.container .row .col .deo{
+    padding-left: 10%;
+    color: black;
+}
+.container .row .col img{
+    border-radius: 5px;
+}
+
 
 @media (max-width:1350px){
     .homepage{
@@ -189,6 +244,24 @@ margin: 0;
         margin-left: 15%;
     }
 
+}
+/*
+@media (max-width:750px){
+    .container .row{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .container .row .col-5 h4{
+      text-align: center;
+      margin-left: 150%;
+      white-space: nowrap;
+    }
+    .container .row .col-5 p{
+        text-align: center;
+        margin-left: 150%;
+    
+      }
 }
 
 
