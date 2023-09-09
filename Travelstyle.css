@@ -92,8 +92,8 @@ margin: 0;
 }
 
 .destinations .row .col img{
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     border: 0.5px solid black;
     border-radius: 8px;
     
@@ -218,6 +218,38 @@ font-family: arima madurai;
 .customers .cus{
     text-align: center;
     color: blue;
+}
+.contact {
+    text-align: center;
+    margin-top: 2%;
+}
+.contact .contacts{
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+}
+.footer .foot h4{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+.footer .foot img{
+    color: white;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    margin: 0 0.5%;
+    
+}
+.footer .foot{
+    padding-bottom: 2%;
+    text-align: center;
 }
 
 
