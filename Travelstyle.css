@@ -222,6 +222,8 @@ font-family: arima madurai;
 .contact {
     text-align: center;
     margin-top: 2%;
+    background-color: rgb(54, 52, 52);
+    color: white;
 }
 .contact .contacts{
     font-weight: bold;
@@ -230,6 +232,7 @@ font-family: arima madurai;
 .contact p{
     font-size: 20px;
     cursor: pointer;
+    padding:5px 0;
 }
 .footer{
     background-color: black;
