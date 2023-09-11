@@ -306,6 +306,15 @@ font-family: arima madurai;
     }
 
 }
+@media (max-width:500px){
+    .customers .row .col img{
+        height:220px;
+        width:220px;
+        border-radius: 20%;
+        margin-bottom: 5%;
+        margin-left:20%;
+    }
+}
 /*
 @media (max-width:750px){
     .container .row{
